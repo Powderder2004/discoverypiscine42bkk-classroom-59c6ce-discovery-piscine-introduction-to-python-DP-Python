@@ -2,4 +2,4 @@
 txt_input = input("Give me a word: ")
 
 # แสดงผลข้อความที่ผู้ใช้กรอกเข้ามาในรูปแบบตัวพิมพ์ใหญ่ทั้งหมด
-print(txt_input.upper())
+print(txt_input.upper()) 
