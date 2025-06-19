@@ -7,12 +7,12 @@ def main_menu():
     print("3. ลบงาน")
     print("4. สรุปจำนวนงานในแต่ละประเภท")
     print("5. ออกจากโปรแกรม")
-    print("6. ยังไม่เปิดใช้")
+
 
 def main():
     while True:
         main_menu()
-        choice = input("เลือกเมนู (1-ุ6): ")
+        choice = input("เลือกเมนู (1-5): ")
         if choice == '1':
             Select_option_1()
         elif choice == '2':
@@ -76,3 +76,4 @@ def Select_option_4():
 
 if __name__ == "__main__":
     main()
+    
